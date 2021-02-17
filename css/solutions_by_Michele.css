@@ -12,3 +12,10 @@ transition: background 4s;
 .ex-2-square:active{
   width: 100%
 }
+/* esercizio_3 */
+.ex-3-square{
+  transition: border-radius 3s;
+}
+.ex-3-square:hover{
+  border-radius: 50%;
+}
