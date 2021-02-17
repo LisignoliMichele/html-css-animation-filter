@@ -5,3 +5,10 @@ transition: background 4s;
 .ex-1-square:hover{
   background-color: red;
 }
+/* esercizio_2 */
+.ex-2-square{
+  transition: width 5s;
+}
+.ex-2-square:active{
+  width: 100%
+}
