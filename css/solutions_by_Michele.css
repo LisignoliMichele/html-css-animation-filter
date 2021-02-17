@@ -67,6 +67,7 @@ transition: background 4s;
   border-radius: 20px;
   transform: scale(1.6)
 }
+/* esercizio_10 */
 .ex-10-icon{
   animation-name: rotate;
   animation-duration: 1s;
@@ -88,5 +89,23 @@ transition: background 4s;
   }
   100%{
     transform: rotate(360deg);
+  }
+}
+/* esercizio_11 */
+.ex-11-icon:hover{
+  animation-name: rotate11;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+@keyframes rotate11 {
+  0%{
+    transform: rotate(0);
+  }
+  90%{
+    transform: rotate(270deg);
+  }
+  100%{
+    transform: rotate(0deg);
   }
 }
